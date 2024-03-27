@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.topnav {
+  background-color: rgb(175, 238, 238);
+  overflow: hidden;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(87, 188, 222);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(134, 198, 219);
+  color: black;
+}
+body,
+html {
+  height: 93%;
+}
+.hero-image {
+  background-image: linear-gradient(rgb(175, 238, 238), rgb(53, 138, 138));
+  height: 100%;
+  padding-top: 3%;
+  padding-left: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: right;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  font-size: x-large;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.name {
+  color: rgb(0, 128, 128);
+}
+.click {
+  border-radius: 12px;
+  border: none;
+  margin: 20px;
+  padding: 10px 50px;
+  background-color: rgb(87, 188, 222);
+}
+#about {
+  background-image: linear-gradient(rgb(53, 138, 138), rgb(175, 238, 238));
+  height: 100%;
+}
+.pic {
+  width: 20%;
+  height: 50%;
+  padding-top: 10%;
+  padding-left: 75%;
+}
+.container {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: left;
+  position: absolute;
+  top: 150%;
+  left: 35%;
+  font-size: small;
+  transform: translate(-50%, -50%);
+  color: black;
+}
