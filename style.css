@@ -109,7 +109,7 @@ footer {
 .socialIcons a {
   text-decoration: none;
   padding: 10px;
-  background-color: white;
+  background-color: black;
   margin: 10px;
   border-radius: 50%;
 }
@@ -119,14 +119,14 @@ footer {
   opacity: 0, 9;
 }
 /* Hover affect on social media icon */
-.socialIcons a:hover {
+/* .socialIcons a:hover {
   background-color: #111;
   transition: 0.5s;
-}
-.socialIcons a:hover i {
-  color: white;
+} */
+/* .socialIcons a:hover i {
+  color: black;
   transition: 0.5s;
-}
+} */
 .footerNav {
   margin: 30px 0;
 }
@@ -136,7 +136,7 @@ footer {
   list-style-type: none;
 }
 .footerNav ul li a {
-  color: white;
+  color: black;
   margin: 20px;
   text-decoration: none;
   font-size: 1.3em;
@@ -147,12 +147,12 @@ footer {
   opacity: 1;
 }
 .footerBottom {
-  background-color: #000;
+  background-color: rgb(175, 238, 238);
   padding: 20px;
   text-align: center;
 }
 .footerBottom p {
-  color: white;
+  color: black;
 }
 .designer {
   opacity: 0.7;
